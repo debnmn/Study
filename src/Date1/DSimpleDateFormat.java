@@ -9,5 +9,9 @@ public class DSimpleDateFormat {
         String strDateFormat = "yyyy-MM-dd HH:mm:ss";
         SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
         System.out.println(sdf.format(date));
+
+        System.out.println(date);
+
+
     }
 }
